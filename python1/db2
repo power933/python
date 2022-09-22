@@ -1,0 +1,25 @@
+from sqlite3 import *
+from MySQLdb import *
+from dbconnect import *
+
+cur = connect.cursor()
+'''
+for a in range(1,5) :
+    sql = "update test3 set mpw='pass12345' where midx='"+str(a)+"'"
+    cur.execute(sql)
+    connect.commit()
+'''
+'''
+cur = connect.cursor()
+for b in range(8,12):
+    sql = "delete from test3 where midx='"+str(b)+"'"
+    cur.execute(sql)
+    connect.commit()
+'''
+'''
+cur = connect.cursor()
+sql = "create table shoping(sidx int(4) not null AUTO_INCREMENT,sname varchar(200) not null,primary key(sidx));"
+cur.execute(sql)
+'''
+
+
