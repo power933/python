@@ -7,4 +7,4 @@ def restart():
 def stop() :
     return system("shutdown /s /t 0")
 
-logout()
+stop()
